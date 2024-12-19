@@ -1,0 +1,16 @@
+Steps to Run CodeXchange:
+
+1) open cmd prompt
+
+2) change directory to the CodeXchange folder
+          example:  C:\Users\rayya>cd C:\Users\rayya\Documents\CodeXchange
+
+3) Run "python -m venv venv"
+
+4) Run "venv\Scripts\activate"
+
+5) Run "pip install streamlit google-generativeai"
+
+6) Run "pip install -r requirements.txt" in cmd prompt
+
+7) Run “streamlit run app.py” to run the app and allow permissions if asked.

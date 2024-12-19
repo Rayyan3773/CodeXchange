@@ -1,0 +1,45 @@
+Python Code:
+''''
+
+a=3
+b=5
+c=a+b
+print(c)
+
+''''
+
+
+Java Code:
+''''
+
+public class Addition {
+    public static void main(String[] args) {
+        int result = add(3, 5);
+        System.out.println("Result of addition: " + result);
+    }
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
+}
+
+''''
+
+
+C++ Code:
+''''
+
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int result = add(3, 5);
+    cout << "Result of addition: " << result << endl;
+    return 0;
+}
+
+''''
